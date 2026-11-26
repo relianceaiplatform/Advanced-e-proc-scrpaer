@@ -1,0 +1,37 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Secrets / API keys
+api key.txt
+*.key
+.env
+.env.*
+
+# Logs and output data
+*.log
+scraping_stats_*.xlsx
+NIC_Filtered_Tenders_*.xlsx
+*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Playwright
+playwright-report/
+test-results/
